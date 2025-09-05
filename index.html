@@ -3,12 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>🌱grow financially</title>
+  <title>🌱 grow financially</title>
   <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
       background-color: #211b15; /* fundo escuro */
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
     }
 
     header {
@@ -23,6 +26,7 @@
     }
 
     main {
+      flex: 1;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -57,27 +61,45 @@
       font-size: 18px;
       font-weight: bold;
       width: 250px;
-      transition: background-color 0.2s;
+      transition: all 0.3s ease;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4); /* sombra */
     }
 
     a.button:hover {
       background-color: #00b359; /* verde mais claro no hover */
+      box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.6); /* sombra mais forte no hover */
+      transform: translateY(-2px); /* efeito levantar */
+    }
+
+    /* Rodapé */
+    footer {
+      background-color: #006d3b;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
     }
   </style>
 </head>
 <body>
   <header>
-    🌱grow financially
+    🌱 grow financially
   </header>
 
   <main>
-    <h2 class="atencao">👆 na oportunidade que mais combina com você👇 </h2>
+    <h2 class="atencao">O primeiro passo para mudar começa aqui 👣 </h2>
 
     <!-- Botões -->
-    <a href="https://hotmart.com/pt-br/marketplace/produtos/o-segredo-para-lucrar-em-portugal/H98423270W" class="button" target="_blank"> Exclusivo para Portugal 🇵🇹</a>
+    <a href="https://hotmart.com/pt-br/marketplace/produtos/o-segredo-para-lucrar-em-portugal/H98423270W" class="button" target="_blank">Exclusivo para Portugal 🇵🇹</a>
   </main>
+
+  <footer>
+    @grow financially
+  </footer>
 </body>
 </html>
+
+
 
 
 
