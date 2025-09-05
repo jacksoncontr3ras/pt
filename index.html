@@ -8,7 +8,7 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background-color: #211b15; /* fundo verde claro */
+      background-color: #211b15; /* fundo escuro */
     }
 
     header {
@@ -28,6 +28,22 @@
       align-items: center;
       padding: 40px 20px;
       gap: 15px;
+    }
+
+    /* Estilo da frase destaque */
+    h2.atencao {
+      color: #a4fff7; /* verde chamativo */
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.1); opacity: 0.8; }
+      100% { transform: scale(1); opacity: 1; }
     }
 
     a.button {
@@ -55,9 +71,10 @@
   </header>
 
   <main>
-    <!-- Edite os links e textos abaixo -->
-    <a href="https://hotmart.com/pt-br/marketplace/produtos/o-segredo-para-lucrar-em-portugal/H98423270W" class="button" target="_blank">Para você que esta em Portugal🇵🇹</a>
-    <!-- Para adicionar mais produtos, copie e cole mais linhas <a> -->
+    <h2 class="atencao">👆 na oportunidade que mais combina com você👇 </h2>
+
+    <!-- Botões -->
+    <a href="https://hotmart.com/pt-br/marketplace/produtos/o-segredo-para-lucrar-em-portugal/H98423270W" class="button" target="_blank"> Exclusivo para Portugal 🇵🇹</a>
   </main>
 </body>
 </html>
